@@ -3,14 +3,14 @@
     "description": "A simple PHP library for sending messages to Telegram.",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0-dev",
+    "version": "1.0.0-stable",
     "authors": [
         {
             "name": "Nguyen Quoc Anh",
             "email": "nguyenquocanh.dev@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0.0"
     },
