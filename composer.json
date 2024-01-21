@@ -3,6 +3,7 @@
     "description": "A simple PHP library for sending messages to Telegram.",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0-dev",
     "authors": [
         {
             "name": "Nguyen Quoc Anh",
@@ -10,9 +11,19 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {},
     "autoload": {
         "psr-4": {
-            "TelegramBots\\TelegramLibrary\\": "src/"
+            "nqa\\TelegramLibrary\\": "src/"
         }
+    },
+    "support": {
+        "email": "nguyenquocanh.dev@gmail.com",
+        "url": "https://github.com/nguyenquocanhz/telegram-library/issues"
+    },
+    "keywords": ["telegram", "library", "messaging"],
+    "extra": {
+        "description": "A simple PHP library for sending messages to Telegram. Provides easy integration with the Telegram API.",
+        "other_description": "Additional description here."
     }
 }
