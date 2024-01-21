@@ -1,0 +1,21 @@
+{
+    "name": "nqa/telegram-library",
+    "description": "A simple PHP library for sending messages to Telegram.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyen Quoc Anh",
+            "email": "nguyenquocanh.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {        
+	"php": ">=5.6",
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramBots\\TelegramLibrary\\": "src/"
+        }
+    }
+}
