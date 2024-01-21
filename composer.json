@@ -11,12 +11,6 @@
         }
     ],
     "minimum-stability": "stable",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nguyenquocanhz/telegram-library"
-        }
-    ]
     "require": {
         "php": ">=7.0.0"
     },
